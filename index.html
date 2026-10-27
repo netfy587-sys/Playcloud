@@ -25,10 +25,11 @@ html,body{margin:0}
 .pc .art{background:#fff;border:1px solid #cfe0ee;border-radius:16px;padding:14px}.pc svg{width:100%;height:auto;display:block}
 .pc ol,.pc ul{padding-left:22px;margin:0 0 14px}.pc li{margin-bottom:8px}
 .pc details{background:#fff;border:1px solid #cfe0ee;border-radius:12px;padding:14px 18px;margin-bottom:10px}.pc summary{cursor:pointer;font-weight:700}
-.pc footer{background:var(--ink);color:#b9cde0;padding:28px 0;font-size:14px;line-height:1.6;text-align:center}
+.pc .disc{background:#0e1f30;color:#cfe0ee;padding:52px 0}.pc .disc h2{color:#7fd6dc;font-size:clamp(24px,2.6vw,32px)}.pc .disc p{font-size:16px;max-width:1100px}
+.pc footer{background:var(--ink);color:#b9cde0;padding:28px 0;font-size:14px;line-height:1.8;text-align:center}
+.pc footer a{color:#7fd6dc;text-decoration:none;margin:0 10px}.pc footer a:hover{text-decoration:underline}.pc footer p{margin:6px 0}
 @media(max-width:900px){.pc .hero .in,.pc .two{grid-template-columns:1fr}.pc .facts,.pc .grid,.pc .grid3{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.pc .facts,.pc .grid,.pc .grid3{grid-template-columns:1fr}.pc{font-size:17px}}
-
 </style>
 </head>
 <body>
@@ -87,7 +88,18 @@ html,body{margin:0}
 <details><summary>Can I use a different set size?</summary><p>Yes. Larger sets such as double-nine have more tiles and suit bigger groups, but the matching rules stay the same.</p></details>
 <details><summary>What if nobody can play?</summary><p>The round is blocked. Players count the pips in their hands, and the lowest total usually wins that round.</p></details>
 <details><summary>Is it hard to learn?</summary><p>No. If you can match numbers, you can play. Strategy comes with practice.</p></details></div></section>
-<footer><div class="in">© 2026 Playcloud. This page is for general information and entertainment only.</div></footer>
+
+<div class="disc" id="disclaimer"><div class="in">
+<h2>Disclaimer</h2>
+<p>The information on Playcloud is provided for general educational, informational and entertainment purposes only. Dominoes rules, set sizes, scoring methods and house variations differ between regions, clubs and families, so this guide may not match the rules you are used to; please agree on the rules with the other players before you start, and check the rulebook of any club or competition you join. We aim to keep the content accurate and clear, but we make no guarantees about completeness or suitability for any particular purpose. Domino tiles are small objects and can be a choking hazard, so young children should be supervised during play. Playcloud is not responsible for any loss, injury or damage arising from the use of this information or from playing the game. Any third-party content or links that may appear on this website are outside our control, and their inclusion does not mean we endorse them.</p>
+</div></div>
+
+<footer><div class="in">
+<!-- PRIVACY & TERMS OPTION: apne pages ban jayen to neeche ke href me unke asli links dalo
+     (e.g. https://yourdomain.com/privacy-policy aur https://yourdomain.com/terms-and-conditions) -->
+<p><a href="#disclaimer">Disclaimer</a><a href="/privacy-policy">Privacy Policy</a><a href="/terms-and-conditions">Terms &amp; Conditions</a></p>
+<p>© 2026 Playcloud. This page is for general information and entertainment only.</p>
+</div></footer>
 </div>
 </body>
 </html>
